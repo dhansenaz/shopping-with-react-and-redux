@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\derek\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add express body-parser mogoose concurrently
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\derek\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\derek\bin;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone;C:\Program Files (x86)\QuickTime\QTSystem;C:\Program Files (x86)\Brackets\command;C:\Program Files\nodejs;C:\WINDOWS\System32\OpenSSH;C:\Users\derek\AppData\Local\Microsoft\WindowsApps;C:\Users\derek\AppData\Local\atom\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\derek\AppData\Local\Microsoft\WindowsApps;C:\Users\derek\AppData\Roaming\npm
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  8.9.3
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "shoppinglist",
+    "version": "1.0.0",
+    "description": "shopping list built MERN stack",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Derek",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/mogoose: Not found
+      at Request.params.callback [as _callback] (C:\Users\derek\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:62098:18)
+      at Request.self.callback (C:\Users\derek\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:123085:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (C:\Users\derek\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:124068:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (C:\Users\derek\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:123988:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)

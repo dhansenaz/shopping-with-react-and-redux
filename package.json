@@ -1,7 +1,7 @@
 {
-  "name": "shoppinglist",
+  "name": "mern_shopping_list",
   "version": "1.0.0",
-  "description": "shopping list built MERN stack",
+  "description": "Shopping list built with the MERN stack",
   "main": "server.js",
   "scripts": {
     "client-install": "npm install --prefix client",
@@ -11,16 +11,15 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
-  "author": "Derek",
-  "license": "ISC",
+  "author": "Derek Hansen",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "concurrently": "^4.0.1",
+    "concurrently": "^3.6.0",
     "express": "^4.16.3",
-    "gh-pages": "^2.0.1",
-    "mongoose": "^5.2.13"
+    "mongoose": "^5.1.6"
   },
   "devDependencies": {
-    "nodemon": "^1.18.4"
+    "nodemon": "^1.17.5"
   }
 }

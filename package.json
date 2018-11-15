@@ -4,12 +4,12 @@
   "description": "shopping list built MERN stack",
   "main": "server.js",
   "scripts": {
-    "client-install":"npm install --prefix client",
+    "client-install": "npm install --prefix client",
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
-
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "author": "Derek",
   "license": "ISC",
@@ -17,6 +17,7 @@
     "body-parser": "^1.18.3",
     "concurrently": "^4.0.1",
     "express": "^4.16.3",
+    "gh-pages": "^2.0.1",
     "mongoose": "^5.2.13"
   },
   "devDependencies": {

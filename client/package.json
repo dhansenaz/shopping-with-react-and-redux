@@ -2,9 +2,11 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://dhansenaz.github.io/shopping-with-react-and-redux/",
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "^4.1.3",
+    "gh-pages": "^2.0.1",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
     "react-redux": "^5.0.7",

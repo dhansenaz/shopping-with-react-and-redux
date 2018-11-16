@@ -19,9 +19,20 @@ class App extends Component {
           <ItemModal />
           <ShoppingList />
           </Container>
+          <div class='i-container'>
+    <div class='instructions'>
+    <span>
+    Click the <u><strong>ADD ITEM</strong></u> Button to get started.
+    </span></div>
+          
+          
         </div>
+        </div>
+        
       </Provider>
+      
     );
+    
   }
 }
 

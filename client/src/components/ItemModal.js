@@ -47,12 +47,14 @@ class ItemModal extends Component{
         return(
             <div>
                 <Button
-                color='dark'
-                style={{ marginBottom: '2rem'}}
+                outline color="primary"
+                color='primary'
+                style={{ marginBottom: '4rem'}}
                 onClick={ this.toggle }
                 >Add Item</Button>
 
                 <Modal
+                  style={{marginTop: '13rem'}}
                     isOpen={this.state.modal}
                     toggle={this.toggle}>
 

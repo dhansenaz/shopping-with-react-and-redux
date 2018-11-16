@@ -20,7 +20,7 @@ class ShoppingList extends Component {
     return (
       <Container>
        
-        <ListGroup>
+        <ListGroup style={{marginBottom: '4rem'}}>
           <TransitionGroup className="shopping-list">
             {items.map(({ _id, name }) => (
               <CSSTransition key={_id} timeout={500} classNames="fade">
